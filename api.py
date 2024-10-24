@@ -5,7 +5,7 @@ import requests  # Importing the requests library to make HTTP requests
 app = Flask(__name__)
 
 # Replace 'YOUR_VIRUSTOTAL_API_KEY' with your actual VirusTotal API key
-VIRUSTOTAL_API_KEY = '58b981ebeca0a4a99825389dd028498ae36ac1d716510b475956fe7ff67732d6'
+VIRUSTOTAL_API_KEY = 'YOUR_VIRUSTOTAL_API_KEy'
 VIRUSTOTAL_URL = 'https://www.virustotal.com/api/v3/ip_addresses/'
 
 # Step 2: Define an API route that listens for requests at '/check-ip'
